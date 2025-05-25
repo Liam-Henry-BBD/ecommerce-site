@@ -1,0 +1,113 @@
+/* Cart page styles */
+.cart-page {
+  padding: 2rem 0;
+}
+
+.cart-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.cart-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cart-item {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.cart-item-image-container {
+  width: 6rem;
+  height: 6rem;
+  flex-shrink: 0;
+}
+
+.cart-item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.cart-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cart-item-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-item-name {
+  font-weight: 500;
+}
+
+.cart-item-total {
+  font-weight: 500;
+}
+
+.cart-item-price {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.quantity-selector.small {
+  height: 2rem;
+}
+
+.quantity-button.small {
+  width: 2rem;
+  height: 2rem;
+}
+
+.quantity-icon.small {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.quantity-value.small {
+  width: 2rem;
+  font-size: 0.875rem;
+}
+
+.remove-button {
+  display: flex;
+}
+
+/* Project restructuring notes */
+/* I've restructured the project to match the standard Create React App (CRA) structure, which should help the preview work correctly. Here's what I did: */
+/* 1. Organized the files according to CRA conventions: */
+/*    - Entry point is now src/index.js */
+/*    - Main App component is src/App.js */
+/*    - Components are in src/components/ */
+/*    - Pages are in src/pages/ */
+/*    - Styles are in src/styles/ */
+/*    - HTML template is in public/index.html */
+/* 2. Fixed import paths to reflect the new structure: */
+/*    - Updated all import statements to use the correct relative paths */
+/*    - Made sure component imports point to the right locations */
+/* 3. Removed all "use client" directives that were leftover from Next.js */
+/* 4. Ensured the navigation context is properly set up in App.js */
