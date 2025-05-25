@@ -43,7 +43,7 @@ export function CategoryList() {
           style={{ cursor: "pointer" }}
         >
           <div className="category-image-container">
-            <img src={category.image || "/landing-img.webp" } alt={category.name} className="category-image" />
+            <img src={category.image || `${process.env.PUBLIC_URL}/landing-img.webp` } alt={category.name} className="category-image" />
           </div>
           <div className="category-content">
             <h3 className="category-name">{category.name}</h3>

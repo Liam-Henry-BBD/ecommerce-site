@@ -19,7 +19,7 @@ export function ProductCard({ id, name, price, image, category }) {
     >
       <div className="product-image-container">
         <img
-          src={image || "/landing-img.webp"}
+          src={image || `${process.env.PUBLIC_URL}/landing-img.webp`}
           alt={name}
           className="product-image"
         />

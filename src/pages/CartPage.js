@@ -66,7 +66,7 @@ function CartPage() {
                 <div key={item.id} className="cart-item">
                   <div className="cart-item-image-container">
                     <img
-                      src={item.image || "/landing-img.webp"}
+                      src={item.image || `${process.env.PUBLIC_URL}/landing-img.webp`}
                       alt={item.name}
                       className="cart-item-image"
                     />

@@ -130,7 +130,7 @@ function ProductDetailPage({ productId }) {
       <div className="container">
         <div className="product-detail">
           <div className="product-image-container-large">
-            <img src={product.image || "/landing-img.webp"} alt={product.name} className="product-image-large" />
+            <img src={product.image || `${process.env.PUBLIC_URL}/landing-img.webp`} alt={product.name} className="product-image-large" />
           </div>
           <div className="product-info">
             <div className="product-header">
