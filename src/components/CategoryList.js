@@ -7,25 +7,25 @@ const categories = [
   {
     id: "grinders",
     name: "Grinders",
-    image: "/landing-img.webp?height=150&width=150",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=150&width=150",
     description: "Premium grinders for a perfect consistency",
   },
   {
     id: "water-pipes",
     name: "Water Pipes",
-    image: "/landing-img.webp?height=150&width=150",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=150&width=150",
     description: "Quality glass water pipes for a smooth experience",
   },
   {
     id: "papers",
     name: "Rolling Papers",
-    image: "/landing-img.webp?height=150&width=150",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=150&width=150",
     description: "Organic and traditional rolling papers",
   },
   {
     id: "accessories",
     name: "Accessories",
-    image: "/landing-img.webp?height=150&width=150",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=150&width=150",
     description: "Storage, cleaning tools, and more",
   },
 ]

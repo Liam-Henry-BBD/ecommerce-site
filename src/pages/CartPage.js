@@ -8,14 +8,14 @@ const initialCartItems = [
     id: "premium-grinder",
     name: "Premium 4-Piece Grinder",
     price: 49.99,
-    image: "/landing-img.webp?height=100&width=100",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=100&width=100`,
     quantity: 1,
   },
   {
     id: "organic-papers",
     name: "Organic Hemp Rolling Papers",
     price: 4.99,
-    image: "/landing-img.webp?height=100&width=100",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=100&width=100`,
     quantity: 2,
   },
 ];

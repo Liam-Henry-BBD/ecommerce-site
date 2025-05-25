@@ -10,7 +10,7 @@ const products = {
     id: "premium-grinder",
     name: "Premium 4-Piece Grinder",
     price: 49.99,
-    image: "/landing-img.webp?height=400&width=400",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=400&width=400`,
     category: "Grinders",
     description:
       "Our premium 4-piece grinder is crafted from high-quality aircraft-grade aluminum. The precision-milled teeth ensure a perfect grind every time, while the pollen catcher preserves the most potent parts of your herbs. The magnetic lid provides a secure closure, and the diamond-shaped teeth are designed for durability and efficiency.",
@@ -33,7 +33,7 @@ const products = {
     id: "metal-grinder",
     name: "Metal Herb Grinder",
     price: 29.99,
-    image: "/landing-img.webp?height=200&width=200",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=200&width=200`,
     category: "Grinders",
     description:
       "A durable metal herb grinder with sharp teeth for efficient grinding. This compact grinder is perfect for on-the-go use.",
@@ -55,7 +55,7 @@ const products = {
     id: "glass-water-pipe",
     name: "Handcrafted Glass Water Pipe",
     price: 129.99,
-    image: "/landing-img.webp?height=400&width=400",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=400&width=400`,
     category: "Water Pipes",
     description:
       "This handcrafted glass water pipe features a unique design and superior filtration for a smooth experience. Made from high-quality borosilicate glass for durability and heat resistance.",
@@ -82,21 +82,21 @@ const relatedProducts = [
     id: "metal-grinder",
     name: "Metal Herb Grinder",
     price: 29.99,
-    image: "/landing-img.webp?height=200&width=200",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=200&width=200`,
     category: "Grinders",
   },
   {
     id: "storage-container",
     name: "Airtight Storage Container",
     price: 24.99,
-    image: "/landing-img.webp?height=200&width=200",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=200&width=200`,
     category: "Accessories",
   },
   {
     id: "cleaning-kit",
     name: "Complete Cleaning Kit",
     price: 19.99,
-    image: "/landing-img.webp?height=200&width=200",
+    image: `${process.env.PUBLIC_URL}/landing-img.webp?height=200&width=200`,
     category: "Accessories",
   },
 ]

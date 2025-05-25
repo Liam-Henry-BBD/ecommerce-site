@@ -24,7 +24,7 @@ function HomePage() {
               </div>
             </div>
             <div className="hero-image-container">
-              <img src="/landing-img.webp?height=400&width=400" alt="Featured Products" className="hero-image" />
+              <img src=`${process.env.PUBLIC_URL}/landing-img.webp?height=400&width=400` alt="Featured Products" className="hero-image" />
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ function HomePage() {
         <div className="container">
           <div className="quality-content">
             <div className="quality-image-container">
-              <img src="/landing-img.webp?height=400&width=400" alt="Quality Promise" className="quality-image" />
+              <img src=`${process.env.PUBLIC_URL}/landing-img.webp?height=400&width=400` alt="Quality Promise" className="quality-image" />
             </div>
             <div className="quality-text">
               <h2 className="quality-title">Our Quality Promise</h2>
